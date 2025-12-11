@@ -14,10 +14,10 @@ This project is a fully styled school timetable layout built with HTML and CSS, 
 ## Layout and Responsiveness
 - The layout uses Flexbox for rows of weekdays and lesson containers, allowing elements to align neatly across the full width of the page. Font sizes and cell heights are defined using viewport units so the timetable scales proportionally with the screen size.​
 
-##How to Run
+## How to Run
 - Download or clone the project files into a folder on your computer.
 - Ensure css_positionering_03.html and stylesheet.css are in the same directory.​
 - Open css_positionering_03.html in any modern web browser to view the timetable.​
 
-##Author
+## Author
 Hani Boutlat – Student developer practicing HTML and CSS layout techniques through timetable design.​
