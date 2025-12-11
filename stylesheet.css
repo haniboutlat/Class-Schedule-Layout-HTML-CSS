@@ -1,0 +1,142 @@
+* {box-sizing: border-box;}
+body{
+    font-size: 1.1vw;
+    font-family: sans-serif;
+}
+.container{
+    margin: auto;
+    padding: 0;
+    font-size: 1em;
+    text-align: center;
+    width:90%;
+    margin-bottom: 2.5%;
+    border-bottom: 1px solid black;
+}
+.klasnaam{
+    font-weight: bold;
+    font-size: 1.2em;
+    text-align: center;
+}
+.rij_weekdagen{
+        display: flex; 
+        width:100%;
+        display: flex; 
+        justify-content:flex-end; 
+}
+.rij_lessenrooster{
+    display: flex;
+    width:100%;
+    justify-content: flex-end;
+}
+.vak, .weekdag{
+    border: solid black;
+    border-width:0px 1px 0px 0px;
+    width: 18%;
+}
+.vak{
+    height:11vw;
+}
+.lbv{
+    width:6%;
+    background-color: #e9c0d2;
+}
+.lijn_bottom{
+    border-bottom:1px solid black;
+}
+.middagpauze{
+    display: flex;
+    height: 5.5vw;
+    justify-content: flex-end;
+    border-bottom: 2px solid #d703d7;
+    border-top: 2px solid #d703d7;
+}
+.vaknaam{
+    font-weight: bold;
+    font-style:normal;
+}
+.lijn_top{
+    border-top:1px solid black;
+}
+.uur_1{
+    height:5.5vw;
+}
+.uur_2{
+    height: 11vw;
+}
+.uur{
+    height: 5.5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.vrijdagrechtslijnweg{
+    border-right:1px solid black;
+}
+.nederlands{
+    background-color: #95bfb3;
+}
+.gescheidenis{
+    background-color: #f2f2f2;
+}
+.lichamelijke_opvoeding{
+    background-color: #aa95c0;
+}
+.engels{
+    background-color: #95bfb3;
+}
+.informatica{
+    background-color: #f2f2f2;
+}
+.gfem{
+    background-color: #f2f2f2;
+}
+.lijnlinks{
+    border-left:1px solid black;
+}
+.economie{
+    background-color: #efe3ed;
+}
+.kleurwit{
+    color:white;
+}
+.wiskunde{
+    background-color: #79bedd;
+}
+.maandaglijnlinks{
+    border-left: 1px solid black;
+}
+.frans{
+    background-color: #95bfb3;
+}
+.natuurwetenschappen{
+    background-color: #cadfd0;
+}
+.aardrijkskunde{
+    background-color: #ebf5dd;
+}
+.laboen{
+    background-color: #ebf5dd;
+}
+.uurlijn{
+    border-top: 1px solid black;
+}
+.teun{
+    font-size: 1vw;
+}
+.stedpers{
+    display: flex;
+    justify-self: flex-start;
+    font-size: .9vw;
+}
+footer{
+    display: flex;
+    justify-content: flex-end;
+    font-size: .9vw;
+    margin-right:10px;
+}
+.exwisk{
+    background-color: #92aac2;
+}
+.widthextrainf{
+    width: 36%;
+}
